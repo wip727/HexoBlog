@@ -28,9 +28,9 @@ $ hexo server -p 5000
 
 ## Write new post
 Three default layouts: post, page and draft, the files created from each layout will be saved at
-- `source/\_posts`
+- `source/_posts`
 - `source`
-- `source/\_drafts`
+- `source/_drafts`
 
 Syntax:
 ``` bash
@@ -42,7 +42,7 @@ Example:
 $ hexo new "Hello World!"
 ```
 ## Publish new post
-This call will move the specified post in `source/\_drafts` to `source/\_posts`
+This call will move the specified post in `source/_drafts` to `source/_posts`
 Syntax:
 ``` bash
 $ hexo publish [layout] <filename>
